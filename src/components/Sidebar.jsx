@@ -43,10 +43,10 @@ const Sidebar = () => {
                 </TooltipComponent>
             </div>
             <div className="mt-10">
-                {links.map(item => {
+                {links.map(item => (
                     <div key={item.title}>
                         <p className="tetx-gray-400 m-3 mt-4 uppercase">{item.title}</p>
-                        {item.links.map(link => {
+                        {item.links.map(link => (
                             <NavLink to={`/${link.name}`} 
                             key={link.name} 
                             onClick={handleCloseSideBar}
@@ -55,9 +55,9 @@ const Sidebar = () => {
                                 {link.icon}
                                 <span className="capitalize">{link.name}</span>
                             </NavLink>
-                        })}
+                        ))}
                     </div>
-                })}
+                ))}
             </div>
             </>
             )}
