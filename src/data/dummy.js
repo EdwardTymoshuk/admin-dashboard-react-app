@@ -529,6 +529,7 @@ export const links = [
         name: 'area',
         icon: <AiOutlineAreaChart />,
       },
+<<<<<<< HEAD
 
       {
         name: 'bar',
@@ -550,6 +551,8 @@ export const links = [
         name: 'pyramid',
         icon: <GiLouvrePyramid />,
       },
+=======
+>>>>>>> d767f27fa0692b48942711f2b8fc259f877d5c4a
       {
         name: 'stacked',
         icon: <AiOutlineBarChart />,
@@ -2125,7 +2128,10 @@ export const ordersData = [
   {
     OrderID: 10248,
     CustomerName: 'Vinet',
+<<<<<<< HEAD
 
+=======
+>>>>>>> d767f27fa0692b48942711f2b8fc259f877d5c4a
     TotalAmount: 32.38,
     OrderItems: 'Fresh Tomato',
     Location: 'USA',

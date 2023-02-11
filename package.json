@@ -1,4 +1,8 @@
 {
+<<<<<<< HEAD
+=======
+  "homepage": ".",
+>>>>>>> d767f27fa0692b48942711f2b8fc259f877d5c4a
   "name": "admin-dashboard-react-app",
   "version": "0.1.0",
   "private": true,
